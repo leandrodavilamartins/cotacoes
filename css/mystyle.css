@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Roboto:wght@100&display=swap');
+
 .form-control{
     margin: left;
     width : 30%;
+}
+
+#conditionLabel {
+    display: block;
+}
+
+.masked{
+    visibility: hidden;
+}
+
+.unmasked{
+    visibility: visible;
+}
+
+.navbar-brand {
+    font-size: 3.0rem;
+    font-family: 'JetBrains Mono', sans-serif;
+
+}
+
+.navbar {
+    background-color:  #FFFFFF !important;
 }
