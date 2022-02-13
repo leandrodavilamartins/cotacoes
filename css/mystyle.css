@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Roboto:wght@100&display=swap');
 
 .form-control{
-    margin: left;
+    margin: auto;
     width : 30%;
+}
+
+.form-select{
+    margin:auto;
+    width: 30%;
 }
 
 #conditionLabel {
     display: block;
+    width: 30%;
+    margin: auto;
 }
 
 .masked{
     visibility: hidden;
+    display: block;
+    margin: auto;
+    width: 20%;
 }
 
 .unmasked{
@@ -20,9 +30,70 @@
 .navbar-brand {
     font-size: 3.0rem;
     font-family: 'JetBrains Mono', sans-serif;
+    color: white !important;
 
 }
 
 .navbar {
-    background-color:  #FFFFFF !important;
+    background-color:  #059862 !important;
 }
+
+#label1{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+#label2{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+#conditionOpt{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+#buttons{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+#submitButton{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+#reqBtn {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white
+}
+
+#conditionOpt{
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+#dbdata{
+    margin: auto;
+    width: 30%;
+    display:block;
+}
+
+
+
