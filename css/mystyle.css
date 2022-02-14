@@ -23,9 +23,21 @@
     width: 20%;
 }
 
+
 .unmasked{
     visibility: visible;
+    color: #059862;
+    font-weight: bold;
+    text-align: center;
 }
+
+.unmasked02{
+    visibility: visible;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
 
 .navbar-brand {
     font-size: 3.0rem;

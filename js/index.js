@@ -5,13 +5,15 @@ const price = document.getElementById('price');
 const paragraph = document.getElementById('dbdata'); 
 const reqBtn = document.getElementById('reqBtn');
 const select = document.getElementById('select');
+const fail = document.getElementById('fail');
 
 
 console.log(select);
 
 btn.addEventListener('click', event => {
     event.preventDefault();
-    submitForm(); // salva dados do formulário no firebase 
+    //submitForm(); // salva dados do formulário no firebase 
+    validation(price.value);
 })
 
 reqBtn.addEventListener('click', () =>{
@@ -92,9 +94,13 @@ function feedSelect() {
 function validation(price) {
     if(isNaN(parseInt(price))){
         console.log('Não é um número ! ');
+        fail.classList.add('unmasked02');
+        msg.classList.remove('unmasked');
     }else{
         console.log('é um número !');
         console.log(parseFloat(parseInt(price)).toFixed(2));
+        submitForm();
+        fail.classList.remove('unmasked02')
     }
 }
 
